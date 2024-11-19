@@ -1,0 +1,66 @@
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+h1
+h2
+h3
+h4
+h5
+h6 {
+    font-family: "Monyserrat", sans-serif;
+
+}
+.bg-main{
+    background-color: var(--min-color)!important;
+}
+.color-min{
+    background-color:brown
+}
+.section-header{
+    width: 90vh;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+/* Home */
+#Home{
+    height: 100vh;
+    background-image: linear-gradient( black, rgba(0, 0, 0, 0.377)), url(../session14/imgs/imgs/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   /* About */
+   .icon{
+    height: 50px;
+    width: 50px;
+   }
+   .icon:hover{
+    border-color:brown !important;
+    cursor: pointer;
+    color: brown !important;
+   }
+@media screen and  (min-width:1024px) {
+    .section-header{
+        width: 50%;
+    }   
+}
+
+
+
+
+
+
+        
+
+        
+
+        
+    
+
